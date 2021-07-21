@@ -1,6 +1,6 @@
 def max_index(a):
     max = a[0]
-    for i in range(1,len(a)-1):
+    for i in range(1,len(a)):
 	if a[i] > max :
 	    max = a[i]
 	return a.index(max)
