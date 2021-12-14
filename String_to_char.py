@@ -7,4 +7,3 @@ input_string = input()
 # Sol_2
 input_string = input()
 print(*input_string, sep="\n")
-
